@@ -3,7 +3,7 @@
 var LINE_AMOUNT = 42;
 var TAU = Math.PI * 2;
 var ISO_ANGLE = TAU * 27 / 360;
-var SEGMENTS = 12;
+var SEGMENTS = 20;
 var SEGMENT_LENGTH = 80;
 
 var polylines = [],
