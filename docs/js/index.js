@@ -71,7 +71,7 @@ function draw(line) {
 function move(line) {
   polylines.forEach(function (line) {
     for (var i = 0; i < line.points.length; i++) {
-      line.points[i].y += 0.01;
+      line.points[i].y += 0.08;
     }
 
     var pointsInside = line.points.filter(function (point) {
